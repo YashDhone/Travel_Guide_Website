@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo1.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  
+  
+    <div class='poster'>
+     <nav> 
+      <div class="logo"><img src="..\images\logo1.png" width="70px"><h1 style="font-size: 30px; text-shadow: 1px 1px 2px rgb(255, 245, 245), 0 0 25px rgb(4, 246, 153), 0 0 5px darkblue;"> Travel Zone </h1> </div>
+      <div class="menu">
+        <a href="\index.html" >Home</a>
+        <a href="\gallary.html" target="_blank">gallery</a>
+        <a href="\About.html" target="_blank">about</a>
+        <a href="\Contact\index.html" target="_blank">contact</a>
+      </div>
+    </nav>
+    </div>
+<div class='central badge' id='logmodule'>
+  <div class='start'>
+    <img src='..\images\logo1.png' width='150'>
+    <div class='back' onclick='document.getElementById("logmodule").className = "central badge"'>Back to Login</div>
+  </div>
+  <div class='ribbon' onclick='document.getElementById("logmodule").className = "central badge signup"'><a href="signup.html" style="color: white;"> Create New Account? Click here.</a></div>
+  <h1 style="text-shadow: 1px 1px 2px rgb(141, 54, 54), 0 0 25px rgb(4, 246, 153), 0 0 5px rgb(161, 88, 88); color: rgb(235, 243, 243);">Travel Zone</h1>
+  
+  <div class='end'>
+    <input id='username' placeholder='Username' type='text'>
+    <input id='password' placeholder='Password' type='password'><br><br>
+    <button class="btn">Log In</button>
+    <div class='roundel register'>Register</div>
+  </div>
+</div>
+
+  <script src="script.js" ></script>
+</body>
+</html>

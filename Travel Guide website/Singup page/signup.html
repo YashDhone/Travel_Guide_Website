@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo1.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ 
+    <div class='poster'> <nav>
+      <div class="logo" style="color: white;"><img src="..\images\logo1.png" width="70px"><h1 style="font-size: 30px; text-shadow: 1px 1px 2px rgb(255, 245, 245), 0 0 25px rgb(4, 246, 153), 0 0 5px darkblue;"> Travel Zone </h1> </div>
+      <div class="menu">
+        <a href="\index.html" >Home</a>
+        <a href="\gallary.html" target="_blank">gallery</a>
+        <a href="\About.html" target="_blank">about</a>
+        <a href="\Contact\index.html" target="_blank">contact</a>
+      </div>
+    </nav></div>
+<div class='central badge' id='logmodule'>
+  <div class='start'>
+    <img src='..\images\logo1.png' width='150'>
+    <div class='back' onclick='document.getElementById("logmodule").className = "central badge"'>Back to Login</div>
+  </div>
+  <div class='ribbon' onclick='document.getElementById("logmodule").className = "central badge signup"'><a href="login.html" style="color: white;"> Log In? Click here.</a></div>
+  <h1 style="text-shadow: 1px 1px 2px rgb(141, 54, 54), 0 0 25px rgb(4, 246, 153), 0 0 5px rgb(161, 88, 88); color: rgb(235, 243, 243);">Travel Zone</h1>
+  <h2>
+    <input id='regemail' placeholder='Email' type='email'><br>
+    <input id='regname' placeholder='Username' type='text'><br>
+    <input id='regpass' placeholder='Password' type='password'><br>
+    <input id='regpass2' placeholder='Confirm Password' type='password'><br>
+    
+  </h2>
+  <div class='end'>
+    
+  <br>
+    <button class="btn">Sign up</button><br>
+    <a href='' style="">Terms and Conditions</a>
+  </div>
+</div>
+
+  <script src="script.js" ></script>
+</body>
+</html>
